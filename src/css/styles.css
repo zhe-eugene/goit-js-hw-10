@@ -44,9 +44,8 @@ img {
 }
 
 .my-custom-toast {
-  border-radius: 10px;
-  border-bottom: 2px solid #ffbebe;
-  border-radius: 4px;
+  border-radius: 10px !important;
+  border-bottom: 2px solid #ffbebe !important;
   font-family: "Montserrat", sans-serif;
 }
 
