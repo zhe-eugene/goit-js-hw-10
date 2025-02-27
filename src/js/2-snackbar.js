@@ -27,7 +27,7 @@ form.addEventListener('submit', event => {
         position: 'topCenter',
         messageColor: ' #fff',
         backgroundColor: '#59a10d',
-        iconUrl: './img/check2-circle.svg',
+        iconUrl: '../img/check2-circle.svg',
       });
     })
     .catch(delay => {
@@ -43,7 +43,7 @@ form.addEventListener('submit', event => {
         messageSize: '16px',
         messageLineHeight: '1.5',
         backgroundColor: '#ef4040',
-        iconUrl: './img/octagon.svg',
+        iconUrl: '../img/octagon.svg',
       });
     });
 });
