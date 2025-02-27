@@ -1,5 +1,6 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import checkIcon from '../img/check2-circle.svg';
 
 const form = document.querySelector('.form');
 
@@ -27,7 +28,7 @@ form.addEventListener('submit', event => {
         position: 'topCenter',
         messageColor: ' #fff',
         backgroundColor: '#59a10d',
-        iconUrl: './img/check2-circle.svg',
+        iconUrl: checkIcon,
       });
     })
     .catch(delay => {
