@@ -145,6 +145,10 @@ button:disabled {
   color: #989898;
 }
 
+.form {
+  padding-left: 50px;
+}
+
 .form label:nth-child(1) {
   display: flex;
   flex-direction: column;
@@ -163,6 +167,16 @@ button:disabled {
   margin-top: 8px;
   margin-bottom: 16px;
   padding-left: 10px;
+  outline: none;
+}
+
+.form input:hover {
+  border: 1px solid #000;
+}
+
+.form input:active,
+.form input:focus {
+  border: 1px solid #4e75ff;
 }
 
 .form fieldset {
@@ -194,10 +208,20 @@ button:disabled {
   height: 20px;
 }
 
+input[type="radio"]:checked {
+  input[type="radio"]:checked {
+    background-color: #4e75ff;
+  }
+}
+
 .form button {
   width: 360px;
   height: 40px;
   margin-bottom: 30px;
+}
+
+.form button:hover {
+  background: #6c8cff;
 }
 
 .back-link {

@@ -37,7 +37,7 @@ const options = {
         messageSize: '16px',
         messageLineHeight: '1.5',
         backgroundColor: '#ef4040',
-        iconUrl: '../img/octagon.svg',
+        iconUrl: './img/octagon.svg',
         position: 'topRight',
       });
       refs.startButton.disabled = true;
