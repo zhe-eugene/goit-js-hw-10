@@ -1,18 +1,206 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+* {
+  box-sizing: border-box;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+body {
+  font-family: "Montserrat", serif;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  font-size: 35px;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-custom-toast {
+  border-radius: 10px;
+  border-bottom: 2px solid #ffbebe;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.iziToast-close {
+  background: url("../img/vector.svg") no-repeat center !important;
+  background-size: 12px !important;
+  width: 12px;
+  height: 12px;
+  opacity: 1 !important;
+
+}
+
+.date-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding-left: 17px;
+  outline: none;
+  border: 1px solid #4e75ff;
+  border-radius: 4px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24px;
+}
+
+.value {
+  font-size: 36px;
+  font-weight: bold;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.label {
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+  background: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  outline: none;
+  border: none;
+  display: block;
+
+}
+
+button:disabled {
+  cursor: not-allowed;
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.form label:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  padding-left: 10px;
+}
+
+.form fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 360px;
+  height: 66px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  gap: 45px;
+  padding: 10px;
+}
+
+.form fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.form fieldset input {
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.form button {
+  width: 360px;
+  height: 40px;
+  margin-bottom: 30px;
+}
+
+.back-link {
+
+  margin-top: 30px;
+}
