@@ -18,7 +18,6 @@ form.addEventListener('submit', event => {
   promise
     .then(delay => {
       iziToast.success({
-        class: '.my-custom-toast',
         title: 'OK',
         titleColor: '#fff',
         titleSize: '16px',
@@ -32,7 +31,6 @@ form.addEventListener('submit', event => {
     })
     .catch(delay => {
       iziToast.error({
-        class: '.my-custom-toast',
         title: 'Error',
         titleColor: '#fff',
         titleSize: '16px',

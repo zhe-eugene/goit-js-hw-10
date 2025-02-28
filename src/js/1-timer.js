@@ -27,7 +27,6 @@ const options = {
 
     if (userSelectedDate < new Date()) {
       iziToast.error({
-        class: '.my-custom-toast',
         title: 'Error',
         message: 'Please choose a date in the future',
         titleColor: '#fff',
@@ -59,7 +58,7 @@ refs.startButton.addEventListener('click', () => {
     if (timeLeft <= 0) {
       clearInterval(countdownInterval);
       updateTimerDisplay(0, 0, 0, 0);
-      dateInput.disabled = false;
+      refs.dateInput.disabled = false;
       return;
     }
 

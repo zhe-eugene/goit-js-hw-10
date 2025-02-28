@@ -4,8 +4,6 @@
 
 body {
   font-family: "Montserrat", serif;
-
-
 }
 
 ul {
@@ -43,11 +41,7 @@ img {
   margin-right: auto;
 }
 
-.my-custom-toast {
-  border-radius: 10px !important;
-  border-bottom: 2px solid #ffbebe !important;
-  font-family: "Montserrat", sans-serif;
-}
+
 
 .iziToast-close {
   background: url("../img/vector.svg") no-repeat center !important;
